@@ -41,6 +41,13 @@ public class SpaceShipController : MonoBehaviour
         }
 
         // 課題: ここに右クリックまたは左 Alt (Fire2) で弾を発射するようコードを追加せよ
+        if (Input.GetButton("Fire2"))
+        {
+            if (m_bulletLimit == 0 || this.GetComponentsInChildren<PlayerBulletController>().Length < m_bulletLimit)    // 画面内の弾数を制限する
+            {
+                Fire1();
+            }
+        }
     }
 
     /// <summary>
