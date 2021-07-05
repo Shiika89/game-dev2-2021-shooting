@@ -7,10 +7,13 @@ using UnityEngine;
 /// </summary>
 public class EnemyController : MonoBehaviour
 {
+    [SerializeField] GameObject m_exposion;
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<PlayerBulletController>())  // 衝突相手が 弾 だったら
         {
+            Instantiate(m_exposion, this.transform.position, Quaternion.identity);
             Destroy(collision.gameObject);  // 弾のオブジェクトを破棄する
             Destroy(this.gameObject);       // そして自分も破棄する
             /* ============
