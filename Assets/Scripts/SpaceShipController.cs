@@ -57,12 +57,4 @@ public class SpaceShipController : MonoBehaviour
             m_anim.Play("Fire");    // Animator Controller 内の State 名を指定して Motion を再生する
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<EnemyController>())
-        {
-            m_anim.Play("SamplePlayerTransparent");
-        }
-    }
 }
