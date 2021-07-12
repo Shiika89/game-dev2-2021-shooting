@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 615928078}
   - component: {fileID: 615928077}
   - component: {fileID: 615928076}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: PlayerBlocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 734010408}
   - component: {fileID: 734010407}
   - component: {fileID: 734010409}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1910572118}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

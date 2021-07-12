@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 378552942956850390}
   - component: {fileID: 2613607370886633654}
   m_Layer: 0
-  m_Name: SampleEnemyPrefab
+  m_Name: EnemyPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,6 +181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44258916db9e9284583826b96b6d5385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_enemyBulletPrefab: {fileID: 5895496614560835474, guid: 3276367a7f4736141ada18282f0384c4,
+    type: 3}
+  m_fireInterval: 1
+  m_explosionPrefab: {fileID: 1549699445808540119, guid: dffa27ec21dbcc340b86a625c89ca165,
+    type: 3}
 --- !u!114 &2613607370886633654
 MonoBehaviour:
   m_ObjectHideFlags: 0
