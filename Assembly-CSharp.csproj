@@ -69,7 +69,11 @@
     <Compile Include="Assets\Scripts\EnemyBulletController.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\EnemyGenerator.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaveGenerator.cs" />
     <Compile Include="Assets\Scripts\ExplosionEffectController.cs" />
+    <Compile Include="Assets\Scripts\MoveObjectCurveToPlayer.cs" />
+    <Compile Include="Assets\Scripts\MoveObjectStraight.cs" />
+    <Compile Include="Assets\Scripts\MoveObjectToPoint.cs" />
     <Compile Include="Assets\Scripts\MoveObjectWaveDown.cs" />
     <Compile Include="Assets\Scripts\PlayerBulletController.cs" />
     <Compile Include="Assets\Scripts\SpaceShipController.cs" />
